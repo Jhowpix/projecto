@@ -1,2 +1,2 @@
-# projecto
- new page practice
+# Projecto
+ new page for practice
