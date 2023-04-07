@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;  
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rajdhani:wght@300;400;500&display=swap');
+
+/*
+font-family: 'Rajdhani', sans-serif;
+*/
+
+* { padding: 0; margin: 0; box-sizing: 0; }
+a { 
+  text-decoration: none;
+  color: black;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+ }
+ a:hover{
+  scale: 1.2;
+ }
+
+header{ 
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.logo img{ 
+  max-width: 7vw;
+  min-width: 45px ;
+  margin: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.516);
+  border-radius: 50%;
+}
+
+nav{
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+}
+
+/* --------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+  header{
+    scale: 0.9;
+  }
+}
