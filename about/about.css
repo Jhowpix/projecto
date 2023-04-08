@@ -10,7 +10,12 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Rajdhani', sans-serif;
 */
 
-* { padding: 0; margin: 0; box-sizing: 0; }
+* { 
+  padding: 0; 
+  margin: 0; 
+  box-sizing: 0; 
+}
+
 a { 
   text-decoration: none;
   color: black;
@@ -21,6 +26,13 @@ a {
  }
  a:hover{
   scale: 1.2;
+  color: rgba(0, 0, 0, 0.726);
+  text-shadow: 0 5px  5px  rgba(0, 0, 0, 0.246);
+ }
+
+ body{
+  width: 100vw;
+  height: auto;
  }
 
 header{ 
@@ -43,13 +55,39 @@ nav{
   display: flex;
   width: 280px;
   justify-content: space-between;
+  margin-right: 10px;
 }
 
-/* --------------------------------------------- */
+main{
+  font-family: 'Rajdhani', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  width: 98vw;
+  margin: auto;
+}
 
-@media screen and (max-width: 480px) {
+main> img{
+  width: 30%; 
+  opacity: 60%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.519);
+}
 
-  header{
-    scale: 0.9;
-  }
+main> aside> p{
+  text-align: left;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+main> aside> a{
+  font-weight: 500;
+  color: rgb(34, 34, 57);
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 18px;
 }
