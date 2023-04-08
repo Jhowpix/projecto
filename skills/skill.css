@@ -39,7 +39,7 @@ header{
 }
 
 .logo img{ 
-  max-width: 7vw;
+  max-width: 5vw;
   min-width: 45px ;
   margin: 12px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.516);
